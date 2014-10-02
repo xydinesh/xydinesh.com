@@ -56,6 +56,15 @@ input[type="checkbox"].input-validation-error {
 
 .navbar-inverse .navbar-brand:hover, 
 .navbar-inverse .navbar-brand:focus {
-  background-color: transparent;
   color: #FFFFFF;
 }
+
+.navbar-inverse .navbar-right > li > a {
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+    .navbar-inverse .navbar-right > li > a:hover {
+        color: #FFFFFF;
+        background-color: transparent;
+    }
