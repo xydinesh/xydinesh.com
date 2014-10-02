@@ -1,8 +1,11 @@
 from flask import Flask
+from flaskext.markdown import Markdown
+
 
 # If you get an error on the next line on Python 3.4.0, change to: Flask('app')
 # where app matches the name of this file without the .py extension.
 app = Flask(__name__)
+Markdown(app)
 
 from routes import *
 

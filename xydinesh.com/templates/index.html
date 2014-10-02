@@ -1,47 +1,15 @@
 {% extends "layout.html" %}
 
 {% block content %}
+{% filter markdown %}
+## {{ title }}
 
-<div class="row">
-    <div class="col-md-3">
-        <h3>Expirence</h3>
-     </div>
-    <div class="col-md-8">
-       <ul>
-           <li>KPMG</li>
-           <li>Link Analytics</li>
-           <li>Oak Ridge National Laboratory</li>
-           <li>WSO2</li>
-       </ul>
-    </div>
-</div>
+### {{ message }}
 
-<hr />
-<div class="row">
-    <div class="col-md-3">
-        <h3>Education</h3>
-    </div>
-    <div class="col-md-8">
-        <ul>
-            <li>University of Tennessee</li>
-            <li>University of Moratuwa</li>
-        </ul>
-    </div>
-</div>
+Use this area to provide additional information.
 
-<hr />
-<div class="row">
-    <div class="col-md-3">
-        <h3>Projects</h3>
-    </div>
-    <div class="col-md-8">
-        <ul>
-            <li>Reporting Engine</li>
-            <li>Flask Web app</li>
-            <li>Real-time dashboard</li>
-            <li>Dynamic pricing engine</li>
-        </ul>
-    </div>
-</div>
+    import sys
+    print "Hello world!"
 
+{% endfilter %}
 {% endblock %}
