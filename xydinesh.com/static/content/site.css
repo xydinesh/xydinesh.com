@@ -48,3 +48,14 @@ input[type="checkbox"].input-validation-error {
 .navbar-dinesh{
    color: #ffffff;
 }
+
+
+.navbar-inverse .navbar-brand {
+    color: #FFFFFF;
+}
+
+.navbar-inverse .navbar-brand:hover, 
+.navbar-inverse .navbar-brand:focus {
+  background-color: transparent;
+  color: #FFFFFF;
+}
