@@ -63,3 +63,7 @@ input[type="checkbox"].input-validation-error {
         color: #FFFFFF;
         background-color: transparent;
     }
+
+    .navbar-inverse .navbar-right > li > a {
+        padding: 15px;
+    }
