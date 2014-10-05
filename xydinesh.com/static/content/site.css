@@ -68,7 +68,17 @@ input[type="checkbox"].input-validation-error {
         padding: 15px;
     }
 
+
+@font-face{
+    font-family: "Flagship-Slab";
+    src: url("../fonts/Flagship Slab - Regular.otf"),
+    url("../fonts/Flagship Slab - Regular.otf"); /* IE */
+}
+
 .container-full {
     margin: 0 auto;
     width: 100%;
+    font-family: "Flagship-Slab";
+    font-size: 1.5em;
 }
+
