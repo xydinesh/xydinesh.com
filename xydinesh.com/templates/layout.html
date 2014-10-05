@@ -28,10 +28,20 @@
         </div>
     </div>
 
-    <div class="container body-content">
-        {% block content %}{% endblock %}
+    <div class="container-full">
+        <div class="row">
+            <div class="col-lg-3">
+                <!--Left Sidebar content-->
+            </div>
+            <div class="col-lg-6 body-content">
+                <!--Body content-->
+                {% block content %}{% endblock %}
+            </div>
+            <div class="col-lg-3">
+                <!--Right Sidebar content-->
+            </div>
+        </div>
     </div>
-
     <script src="/static/scripts/jquery-1.10.2.js"></script>
     <script src="/static/scripts/bootstrap.js"></script>
     <script src="/static/scripts/respond.js"></script>
