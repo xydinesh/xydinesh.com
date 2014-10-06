@@ -47,6 +47,7 @@ input[type="checkbox"].input-validation-error {
 
 .navbar-inverse .navbar-brand {
     color: #FFFFFF;
+    font-weight: bold;
     font-family: 'Abril+Fatface'
 }
 
@@ -82,9 +83,13 @@ input[type="checkbox"].input-validation-error {
     width: 100%;
     font-family: "Raleway";
     font-size: 1.2em;
-    line-height: 1.5em;
 }
 
 #about {
-    margin: 70px 10px 0px 10px;;
+    margin: 70px 10px 0px 10px;
+    line-height: 1.6em;
+}
+
+#about > p {
+    padding-top: 20px;
 }
