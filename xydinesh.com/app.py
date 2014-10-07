@@ -1,12 +1,12 @@
 from flask import Flask
-from flaskext.markdown import Markdown
+from flask_flatpages import FlatPages
 
 
 # If you get an error on the next line on Python 3.4.0, change to: Flask('app')
 # where app matches the name of this file without the .py extension.
 app = Flask(__name__)
-Markdown(app)
-
+app.config.from_pyfile('config.py')
+pages = FlatPages(app)
 from routes import *
 
 # Make the WSGI interface available at the top level so wfastcgi can get it.

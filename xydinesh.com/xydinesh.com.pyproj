@@ -31,9 +31,13 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="app.py" />
+    <Compile Include="config.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="routes.py" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="pages\" />
     <Folder Include="static\" />
     <Folder Include="static\content\" />
     <Folder Include="static\fonts\" />
@@ -41,6 +45,7 @@
     <Folder Include="templates\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="pages\welcome.md" />
     <Content Include="requirements.txt" />
     <Content Include="static\content\bootstrap.css" />
     <Content Include="static\content\bootstrap.min.css" />
@@ -67,6 +72,7 @@
     <Content Include="static\scripts\respond.min.js" />
     <Content Include="static\scripts\_references.js" />
     <Content Include="templates\about.html" />
+    <Content Include="templates\page.html" />
     <Content Include="templates\index.html" />
     <Content Include="templates\layout.html" />
     <None Include="xydinesh - FTP.pubxml" />

@@ -32,7 +32,15 @@
     <div class="container-full">
         <div class="row">
             <div class="col-lg-3">
-                <!--Left Sidebar content-->
+                <ul>
+                    {% for page in pages %}
+                    <li>
+                        <a href="{{ url_for('page', path=page.path) }}">{{ page.title }}</a>
+                    </li>
+                    {% else %}
+                    <li>No stuff.</li>
+                    {% endfor %}
+                </ul>
             </div>
             <div class="col-lg-5 body-content">
                 <!--Body content-->
