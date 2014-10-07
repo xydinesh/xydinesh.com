@@ -93,3 +93,14 @@ input[type="checkbox"].input-validation-error {
 #about > p {
     padding-top: 20px;
 }
+
+#dpicture {
+    margin: 70px 10px 0px 10px;
+    height: 300px;
+    width: 280px;
+}
+
+#dpicture > img {
+    height: 300px;
+    width: 280px;
+}
