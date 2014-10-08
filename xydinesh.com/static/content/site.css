@@ -41,6 +41,10 @@ input[type="checkbox"].input-validation-error {
     display: none;
 }
 
+.navbar {
+    min-height: 38px;
+}
+
 .navbar-inverse {
     background-color: #000000;
 }
@@ -48,7 +52,10 @@ input[type="checkbox"].input-validation-error {
 .navbar-inverse .navbar-brand {
     color: #FFFFFF;
     font-weight: bold;
-    font-family: 'Abril+Fatface'
+    font-family: 'Abril+Fatface';
+    font-size: 2em;
+    padding: 10px;
+    padding-bottom: 0;
 }
 
 .navbar-inverse .navbar-brand:hover, 
@@ -59,16 +66,13 @@ input[type="checkbox"].input-validation-error {
 .navbar-inverse .navbar-right > li > a {
     color: #FFFFFF;
     font-weight: bold;
-    font-family: 'Abril+Fatface'
+    font-family: 'Abril+Fatface';
+    padding: 5px;
 }
 
     .navbar-inverse .navbar-right > li > a:hover {
         color: #FFFFFF;
         background-color: transparent;
-    }
-
-    .navbar-inverse .navbar-right > li > a {
-        padding: 15px;
     }
 
 
@@ -83,6 +87,10 @@ input[type="checkbox"].input-validation-error {
     width: 100%;
     font-family: "Raleway";
     font-size: 1.2em;
+}
+
+#aboutheader {
+    font-size: 1.4em;
 }
 
 #about {
