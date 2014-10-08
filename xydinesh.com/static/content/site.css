@@ -93,6 +93,13 @@ input[type="checkbox"].input-validation-error {
     font-size: 1.4em;
 }
 
+#aboutshort {
+    font-size: 0.8em;
+    line-height: 1.2em;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
 #about {
     margin: 70px 10px 0px 10px;
     line-height: 1.6em;
@@ -109,6 +116,6 @@ input[type="checkbox"].input-validation-error {
 }
 
 #dpicture > img {
-    height: 300px;
-    width: 280px;
+    height: 280px;
+    width: 250px;
 }
