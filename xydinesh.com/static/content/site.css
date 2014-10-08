@@ -96,8 +96,8 @@ input[type="checkbox"].input-validation-error {
 #aboutshort {
     font-size: 0.8em;
     line-height: 1.2em;
-    margin-bottom: 20px;
-    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
 }
 
 #about {
@@ -106,7 +106,7 @@ input[type="checkbox"].input-validation-error {
 }
 
 #about > p {
-    padding-top: 20px;
+    padding-top: 10px;
 }
 
 #dpicture {
@@ -115,7 +115,22 @@ input[type="checkbox"].input-validation-error {
     width: 280px;
 }
 
+#dpicture > h3 {
+    font-weight: bold;
+    font-family: 'Abril+Fatface';
+    font-size: 1.1em;
+    color: #444444;
+    margin: 10px 0 10px 0;
+    padding: 0;
+}
+
 #dpicture > img {
     height: 280px;
     width: 250px;
+}
+
+hr {
+    border: 3px solid #444444;
+    padding: 0;
+    margin: 30px 0 0 0;
 }
