@@ -38,6 +38,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="pages\" />
+    <Folder Include="pages\2014\" />
     <Folder Include="static\" />
     <Folder Include="static\content\" />
     <Folder Include="static\fonts\" />
@@ -46,7 +47,7 @@
     <Folder Include="templates\" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="pages\welcome.md" />
+    <Content Include="pages\2014\welcome.md" />
     <Content Include="requirements.txt" />
     <Content Include="static\content\bootstrap.css" />
     <Content Include="static\content\bootstrap.min.css" />

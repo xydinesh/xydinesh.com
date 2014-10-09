@@ -23,10 +23,13 @@
     <div class="container-full">
         <div class="row">
             <div class="col-lg-3">
-                <!-- Left sidebar content -->
-                {% with pages=pages  %}
-                    {% include "_list.html" %}
-                {% endwith %}
+                <ul>
+                    {% for page in pages %}
+                    <li>
+                        <a href="{{ url_for('page', path=page.path) }}">{{ page.title }}</a>
+                    </li>
+                    {% endfor %}
+                </ul>
             </div>
             <div class="col-lg-5 body-content">
                 <!--Body content-->
