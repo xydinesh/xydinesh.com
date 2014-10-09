@@ -23,15 +23,10 @@
     <div class="container-full">
         <div class="row">
             <div class="col-lg-3">
-                <ul>
-                    {% for page in pages %}
-                    <li>
-                        <a href="{{ url_for('page', path=page.path) }}">{{ page.title }}</a>
-                    </li>
-                    {% else %}
-                    <li>No stuff.</li>
-                    {% endfor %}
-                </ul>
+                <!-- Left sidebar content -->
+                {% with pages=pages  %}
+                    {% include "_list.html" %}
+                {% endwith %}
             </div>
             <div class="col-lg-5 body-content">
                 <!--Body content-->
@@ -43,6 +38,7 @@
                 <hr />
                 <h3>Dinesh Weerapurage</h3>
                 <p id="aboutshort">Open source enthusiast, Python developer, Apache Axis2/C committer and PMC.</p>
+                <hr />
             </div>
         </div>
     </div>

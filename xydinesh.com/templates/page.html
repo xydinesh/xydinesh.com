@@ -3,4 +3,14 @@
 {% block content %}
 <h2>{{ page.title }}</h2>
     {{ page.html|safe }}
+
+{% if page.meta.tags|length %}
+    <p id="tagp">
+    Tags:
+        {% for page_tag in page.meta.tags %}
+        <a id="atag" href="{{ url_for('tag', tag=page_tag) }}">{{ page_tag }}</a>,
+        {% endfor %}
+    </p>
+{% endif %}
+
 {% endblock content %}

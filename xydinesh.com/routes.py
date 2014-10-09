@@ -29,3 +29,8 @@ def page(path):
         title = 'Page',
         page = page,
         pages = pages)
+
+@app.route('/tag/<string:tag>/')
+def tag(tag):
+    tagged = [p for p in pages if tag in p.meta.get('tags', [])]
+    return render_template('tag.html', pages=tagged, tag=tag)
