@@ -23,14 +23,14 @@
 
     <div class="container-full">
         <div class="row">
-            <div class="col-lg-3">
-                <div id="toc" class="col-lg-3">
+            <div class="col-xs-12 col-md-3 col-lg-3">
+                <div id="toc">
                     <ul>
                         {% set  current_date = "" %}
                         {% for page in pages|sort(attribute='date') %}
                         <li>
                             {% if page.date != current_date %}
-                            <span>{{ page.date }}</span><br/>
+                            <span>{{ page.date }}</span><br />
                             {% endif %}
                             <a href="{{ url_for('page', path=page.path) }}">{{ page.title }}</a>
                         </li>
@@ -39,11 +39,11 @@
                     </ul>
                 </div>
             </div>
-            <div class="col-lg-5 body-content">
+            <div class="col-xs-12 col-md-5 col-lg-5 body-content">
                 <!--Body content-->
                 {% block content %}{% endblock %}
             </div>
-            <div id="dpicture" class="col-lg-4">
+            <div id="dpicture" class="col-xs-12 col-md-4 col-lg-4" >
                 <!--Right Sidebar content-->
                 <img src="/static/images/dinesh.jpg" />
                 <hr />
@@ -57,7 +57,7 @@
                         <li><a href="https://www.linkedin.com/in/xydinesh"><img src="/static/images/social/linkedin.png" /></a></li>
                         <li><a href="https://twitter.com/xydinesh"><img src="/static/images/social/twitter.png" /></a></li>
                         <li><a href="mailto:xydinesh@gmail.com"><img src="/static/images/social/email.png" /></a></li>
-                    </ul>                    
+                    </ul>
                 </div>
             </div>
         </div>
