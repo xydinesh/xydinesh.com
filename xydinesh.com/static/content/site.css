@@ -156,11 +156,12 @@ hr {
     margin: 0;
     padding: 0;
     list-style: none;
+    width: 250px;
 }
 
 #social li {
     float: left;
-    margin: 0 0 0 35px;
+    margin: 0 0 0 40px;
 }
 
 #social_first {
