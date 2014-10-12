@@ -48,6 +48,11 @@
     <Folder Include="templates\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="pages\2014\post1.md" />
+    <Content Include="pages\2014\post5.md" />
+    <Content Include="pages\2014\post4.md" />
+    <Content Include="pages\2014\post3.md" />
+    <Content Include="pages\2014\post2.md" />
     <Content Include="pages\2014\welcome.md" />
     <Content Include="requirements.txt" />
     <Content Include="static\content\bootstrap.css" />

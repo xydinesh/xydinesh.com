@@ -1,5 +1,14 @@
 {% extends "layout.html" %}
 
 {% block content %}
-<p> Welcome </p>
+
+{% for page in pages | reverse %}
+    {% if loop.index < 5 %}
+    <h3>{{ page.title }}</h3>
+    {{ page.body|truncate(300) }}
+    <br/>
+    <a href="{{ url_for('page', path=page.path) }}">Read more ... </a>
+    {% endif %}
+{% endfor %}
+
 {% endblock %}
