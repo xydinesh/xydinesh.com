@@ -53,7 +53,6 @@
     <Content Include="pages\2014\post4.md" />
     <Content Include="pages\2014\post3.md" />
     <Content Include="pages\2014\post2.md" />
-    <Content Include="pages\2014\welcome.md" />
     <Content Include="requirements.txt" />
     <Content Include="static\content\bootstrap.css" />
     <Content Include="static\content\bootstrap.min.css" />
