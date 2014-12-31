@@ -21,7 +21,7 @@ def about():
         pages = pages,
     )
 
-@app.route('/<path:path>/')
+@app.route('/<path:path>')
 def page(path):
     page = pages.get_or_404(path)
     return render_template(
@@ -30,7 +30,7 @@ def page(path):
         page = page,
         pages = pages)
 
-@app.route('/tag/<string:tag>/')
+@app.route('/tag/<string:tag>')
 def tag(tag):
     tagged = [p for p in pages if tag in p.meta.get('tags', [])]
     return render_template('tag.html', pages=tagged, tag=tag)

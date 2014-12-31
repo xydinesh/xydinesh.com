@@ -1,4 +1,4 @@
-from flask import Flask
+from flask import Flask, url_for
 from flask_flatpages import FlatPages
 from flask_frozen import Freezer
 
@@ -15,13 +15,18 @@ from routes import *
 # Make the WSGI interface available at the top level so wfastcgi can get it.
 wsgi_app = app
 
+#@freezer.register_generator
+#def page_url_generator():
+#    for p in pages:
+#        yield '/{0}'.format(p.path)
+
 if __name__ == '__main__':
     import os
     import sys
 
     if len(sys.argv) > 1 and sys.argv[1] == 'build':
         freezer.freeze()
-        # freezer.run(debug=True)
+        #freezer.run(debug=True)
         sys.exit(0)
 
     host = os.environ.get('SERVER_HOST', 'localhost')
