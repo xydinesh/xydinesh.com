@@ -48,8 +48,6 @@ if __name__ == '__main__':
 
     if len(sys.argv) > 1 and sys.argv[1] == 'build':
         freezer.freeze()
-        #freezer.run(debug=True)
-        #sys.exit(0)
     else:
         host = os.environ.get('SERVER_HOST', 'localhost')
         try:
