@@ -4,34 +4,36 @@ Routes and views for the flask application.
 
 from datetime import datetime
 from flask import render_template
-from xydineshcom import app
+from xydineshcom import app, pages
 
 @app.route('/')
-@app.route('/home')
-def home():
-    """Renders the home page."""
+def index():
     return render_template(
         'index.html',
-        title='Home Page',
-        year=datetime.now().year,
+        title = 'Home Page',
+        pages = pages,
     )
 
-@app.route('/contact')
-def contact():
-    """Renders the contact page."""
-    return render_template(
-        'contact.html',
-        title='Contact',
-        year=datetime.now().year,
-        message='Your contact page.'
-    )
 
 @app.route('/about')
 def about():
-    """Renders the about page."""
     return render_template(
         'about.html',
-        title='About',
-        year=datetime.now().year,
-        message='Your application description page.'
+        title = 'About',
+        message = 'Your application description page.',
+        pages = pages,
     )
+
+@app.route('/<path:path>/')
+def page(path):
+    page = pages.get_or_404(path)
+    return render_template(
+        'page.html',
+        title = 'Page',
+        page = page,
+        pages = pages)
+
+@app.route('/tag/<string:tag>/')
+def tag(tag):
+    tagged = [p for p in pages if tag in p.meta.get('tags', [])]
+    return render_template('tag.html', pages=tagged, tag=tag)

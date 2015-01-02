@@ -19,6 +19,8 @@
     <PythonWsgiHandler>$(MSBuildProjectName).app</PythonWsgiHandler>
     <Name>xydineshcom</Name>
     <RootNamespace>xydineshcom</RootNamespace>
+    <InterpreterId>{9b1bc4c5-ec8e-42cf-8f3e-5c761cda75a9}</InterpreterId>
+    <InterpreterVersion>2.7</InterpreterVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -71,6 +73,19 @@
     <Content Include="xydineshcom\templates\layout.html" />
     <Content Include="web.config" />
     <Content Include="web.debug.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Interpreter Include="env\">
+      <Id>{9b1bc4c5-ec8e-42cf-8f3e-5c761cda75a9}</Id>
+      <BaseInterpreter>{823478df-2bc6-3149-90e0-6f3e0282dc82}</BaseInterpreter>
+      <Version>2.7</Version>
+      <Description>env (Enthought Canopy (2.7 64-bit))</Description>
+      <InterpreterPath>Scripts\python.exe</InterpreterPath>
+      <WindowsInterpreterPath>Scripts\pythonw.exe</WindowsInterpreterPath>
+      <LibraryPath>Lib\</LibraryPath>
+      <PathEnvironmentVariable>PYTHONPATH</PathEnvironmentVariable>
+      <Architecture>Amd64</Architecture>
+    </Interpreter>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.Web.targets" />
   <!-- Specify pre- and post-build commands in the BeforeBuild and
