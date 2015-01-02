@@ -1,0 +1,208 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+/* styles for validation helpers */
+.field-validation-error {
+    color: #b94a48;
+}
+
+.field-validation-valid {
+    display: none;
+}
+
+input.input-validation-error {
+    border: 1px solid #b94a48;
+}
+
+input[type="checkbox"].input-validation-error {
+    border: 0 none;
+}
+
+.validation-summary-errors {
+    color: #b94a48;
+}
+
+.validation-summary-valid {
+    display: none;
+}
+
+.navbar {
+    min-height: 38px;
+}
+
+.navbar-inverse {
+    background-color: #000000;
+}
+
+.navbar-inverse .navbar-brand {
+    color: #FFFFFF;
+    font-weight: bold;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 2em;
+    padding: 10px;
+    padding-bottom: 0;
+}
+
+.navbar-inverse .navbar-brand:hover, 
+.navbar-inverse .navbar-brand:focus {
+  color: #FFFFFF;
+}
+
+.navbar-inverse .navbar-right > li > a {
+    color: #FFFFFF;
+    font-weight: bold;
+    font-family: 'Abril Fatface', cursive;
+    padding: 5px;
+}
+
+    .navbar-inverse .navbar-right > li > a:hover {
+        color: #FFFFFF;
+        background-color: transparent;
+    }
+
+
+@font-face{
+    font-family: "Flagship-Slab";
+    src: url("../fonts/Flagship Slab - Regular.otf"),
+    url("../fonts/Flagship Slab - Regular.otf"); /* IE */
+}
+
+.container-full {
+    margin: 0 auto;
+    width: 100%;
+    font-family: "Raleway";
+    font-size: 1.2em;
+}
+
+#aboutheader {
+    font-size: 1.4em;
+}
+
+#aboutshort {
+    font-size: 0.8em;
+    line-height: 1.2em;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+#about {
+    margin: 70px 10px 0px 10px;
+    line-height: 1.6em;
+}
+
+#about > p {
+    padding-top: 10px;
+}
+
+#dpicture {
+    margin: 70px 10px 0px 10px;
+    height: 300px;
+    width: 280px;
+}
+
+#dpicture > h3 {
+    font-weight: bold;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 1.1em;
+    color: #444444;
+    margin: 10px 0 10px 0;
+    padding: 0;
+}
+
+#dpicture > img {
+    height: 280px;
+    width: 250px;
+}
+
+hr {
+    border: 3px solid #444444;
+    padding: 0;
+    margin: 30px 0 0 0;
+}
+
+#atag {
+    font-size: 1em;
+}
+
+#tagp {
+
+    font-size: 0.85em;
+}
+
+#post_date {
+    font-size: 0.85em;
+    font-style: italic;
+}
+
+#social {
+    margin: 15px 0 15px 0;
+    float: left;
+}
+
+.break {
+    clear: both;
+}
+
+#social ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: 250px;
+}
+
+#social li {
+    float: left;
+    margin: 0 0 0 40px;
+}
+
+#social_first {
+     margin-left: 0 !important;
+}
+
+#toc {
+    margin: 20px 0 20px 0;
+}
+
+#toc ul {
+    list-style: none;
+}
+
+#toc span {
+    font-size: 0.85em;
+}
+
+#toc a {
+     font-size: 0.85em;
+}
+
+h2 {
+    font-weight: bold;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 2.5em;
+    color: #444444;
+    margin: 10px 0 20px 0;
+    padding: 0;
+}
+
+h3 {
+    font-family: 'Abril Fatface', cursive;
+    font-size: 1.8em;
+    color: #444444;
+    margin: 10px 0 10px 0;
+    padding: 0;
+}

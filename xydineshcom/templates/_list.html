@@ -1,0 +1,16 @@
+<ul>
+    {% for page in pages %}
+    <li>
+        <a id="apage" href="{{ url_for('page', path=page.path) }}">{{ page.title }}</a>
+        {% if page.meta.tags|length %}
+        <p id="tagp"> Tags: 
+        {% for page_tag in page.meta.tags %}
+        <a id="atag" href="{{ url_for('tag', tag=page_tag) }}">{{ page_tag }}</a>, 
+        {% endfor %}
+        </p>
+        {% endif %}
+    </li>
+    {% else %}
+    <li>No page.</li>
+    {% endfor %}
+</ul>
