@@ -18,7 +18,7 @@
     <StaticUriRewrite>^/$(MSBuildProjectName)/static/.*</StaticUriRewrite>
     <PythonWsgiHandler>$(MSBuildProjectName).app</PythonWsgiHandler>
     <Name>xydineshcom</Name>
-    <RootNamespace>FlaskWebProject</RootNamespace>
+    <RootNamespace>xydineshcom</RootNamespace>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -73,7 +73,7 @@
     <Content Include="web.debug.config" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.Web.targets" />
-  <!-- Specify pre- and post-build commands in the BeforeBuild and 
+  <!-- Specify pre- and post-build commands in the BeforeBuild and
        AfterBuild targets below. -->
   <Target Name="BeforeBuild">
   </Target>
