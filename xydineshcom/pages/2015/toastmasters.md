@@ -8,7 +8,7 @@ One of my friend and co-worker started attending toastmasters club in Knoxville 
 
 I learned few things about toastmasters I didn’t know before. I thought to write them down for myself.  
 
-### Work on projects from two manuals ###
+### 1. Work on projects from two manuals ###
 
 I went another three weeks and didn't do any organized speeches. In the meantime I got two books in mail from toastmasters. "Competence Communicator Manual" and "Competence Leader Manual". I wasn't sure about what do with the manuals so that I hold on to them and kept attending meetings and participate in different roles. Then I realized other members were following manuals and doing speeches (projects) from manuals. That's when it clicked me. I also should started doing speeches from the manuals.
 
@@ -17,14 +17,14 @@ Focus of the other manual "Competence Leadership Manual" is improving leadership
 
 At the end, when a member is done with all levels of communication track and all levels of leadership track then member can achieve Distinguished Toastmaster (DTM) level. I know that one will need great commitment to achieve DTM level. Also, as you are progress through different levels, toastmaster international provides certificates and send letters to employer notifying achievements. Those things will help you to boost your motivation along the way.
 
-### Prepared speeches ###
+### 2. Opportunity to do prepared speeches ###
 
 Great thing about toastmasters club is opportunity to present organized speeches. It could be projects from the manual or something a member came up. Every meeting has time up to two prepared speeches, usually each speech 5-7 min long. Advantage of 5-7 min long speeches are, easy to write and rehearse. I try to rehearse at least 5-10 times before presenting. When rehearsing I use my iPhone to record my speeches. Only problem is, no matter how much I rehearse when I'm in front of the audience I get nervous. I think everybody gets nervous, successful delivery of a speech depend on how fast you can overcome this nervousness and be yourself on the stage. I truly believe that is something only can be achieved using continuous practice. I did my sixth speech from the manual last week and I felt comfortable delivering speech compared to my first time. Now I'm convinced that toastmasters clubs approach for public speaking is working.
 
 
 Before attending toastmasters club I thought, it is all about impromptu speeches not about prepared speeches. Now I know that toastmasters club has both. In every meeting they have table topic which focus on impromptu speeches. A member who is designated as topics master is responsible for come up with topics for the meeting. All members know their role for the meeting at least a week in advance and they have plenty of time to prepare. Usually topics master picks a theme like "holiday season", "books", "investing" etc and prepare few topics related to the theme. Then during table topics section, topics master will pick members in the meeting to talk about a topic she has prepared. These table topic speeches are usually 1-2 min long. At the end members will vote for the best table topic speech. I have been attending most of the meetings last four months and I’m still struggling with table topic speeches.
 
-### Organized evaluations, feedback from experienced toastmasters ###
+### 3. Get feedback from organized evaluations ###
 
 Evaluation aspect of toastmasters was totally unexpected when I joined. It makes toastmasters program such a success. We all have spoken in a conference, meeting or gathering in one occasion or another but we never heard feedback about our speeches. Audience is there for content that we deliver not to help improve our skills. In toastmasters at least two members pay attention to catch your errors and mistakes. It could be organization of the speech, flow of information, grammar errors or it could be verbal crutches that you have used.
 
@@ -34,12 +34,12 @@ Grammarian is another important role in toastmasters meeting. Grammarian gives w
 
 These organized evaluations something unique to toastmasters. You could be a beginner or regular public speaker, level of attention and feedback that you can take action to improve is valuable to anyone. If I knew earlier organized evaluations could be the only reason to join toastmasters club.
 
-### Opportunity to improve your leadership skills ###
+### 4. Opportunity to serve club roles and improve leadership skills ###
 
 If you are still reading, we all agree that toastmasters provide an excellent support to improve your communication skills. Toastmasters club focus on improving leadership skills is something I was totally unaware. I'm not trying to make things up or show improving your communication skill help to leadership skills. Improving communication skills will help you to become a better leader. That's is not what I'm going to tell you here.
 
 Toastmasters club has a leadership track. It is designed to help you to become a better leader. At the beginning you will get two manuals. One for communication and other one for leadership. In leadership manual, it has number of projects which you need to participate in meeting roles focusing on different aspects of leadership. For instance one time it is listening, another time it is team work. Every time you work on a leadership project from the manual, you have to find someone to evaluate your role. For example, if you are the toastmaster for the meeting and working on leadership project for time management for toastmaster. You have to find an evaluator and explain what your are doing. Then ask him to evaluate you according to the manual and make notes on your manual.
 
-### Opportunity to improve your writing skills ###
+### 5. Opportunity to improve writing skills ###
 
 Improving my writing was not on my list when I joined toastmasters. Guess what, I have been writing 600-700 word speeches every week last couple of week. I know, you will not get much feedback for writing as for speaking with toastmasters. However you will develop a skill of speech writing. Especially writing for ears is different from our regular writing. I have been trying to write short sentences and use more active voice so that listeners can follow my speech easily. Importantly, when you have a speech coming up you have motivation to start writing and rehearsing speech as early as possible. Last couple weeks my strategy was committing myself to speeches every week so that I have to prepare for next speech from Tuesday night, just after toastmasters meeting.
